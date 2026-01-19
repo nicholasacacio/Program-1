@@ -5,6 +5,7 @@ guess_number = int(input("Masukkan Tebak Angka:"))
 
 while guess_number != secret_number:
     print("Tebakan salah, silakan coba lagi")
+    print("Anda terjebak dalam perputaran abadi") # modify
     guess_number = int(input("Masukkan Tebak Angka:"))
 
 print("Selamat.., tebakan Anda benar")
