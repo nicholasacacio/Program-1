@@ -21,7 +21,7 @@ def tampilkan_progress(tebakan_ke, max_tebakan):
 def main():
     tampilkan_banner()
     
-    secret_number = 67
+    secret_number = random.randint(1, 100)
     tebakan_ke = 0
     max_tebakan = 10
     waktu_mulai = time.time()
